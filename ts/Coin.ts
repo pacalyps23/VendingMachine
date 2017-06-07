@@ -1,3 +1,7 @@
+class Coin{
+  
+}
+
 class Quarter{
   private value: number = .25;
   get Value(){
@@ -9,6 +13,16 @@ class Quarter{
   }
   getImageUrl(){
     return "img/Quarter.png";
+  }
+}
+
+class Dime{
+  private value = .10;
+  get Value(){
+    return this.value;
+  }
+  getImageUrl(){
+    return "img/Dime.png";
   }
 }
 
